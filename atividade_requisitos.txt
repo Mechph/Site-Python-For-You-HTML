@@ -1,0 +1,34 @@
+REQUISITOS:
+
+RF:
+
+1- Interface Simples e Intuitiva: O site deve ter uma interface limpa e de fácil compreensão, com elementos de design claros e intuitivos para facilitar a navegação para os usuários idosos.
+
+2- Ampliação de Texto: Capacidade de ampliar o tamanho do texto para facilitar a leitura para aqueles com deficiências visuais ou dificuldade para enxergar.
+
+3-Suporte a Áudio: Recursos de leitura de tela ou áudio para auxiliar os usuários com dificuldades visuais a navegar pelo site e acessar o conteúdo.
+
+4-Tutorial Passo a Passo: Oferecer tutoriais e guias passo a passo em linguagem simples para ensinar conceitos de programação, desde o básico até níveis mais avançados.
+
+5-Feedback Visual e Sonoro: Forneça feedback claro e distintivo, tanto visual quanto sonoro, para indicar interações bem-sucedidas ou erros durante o uso do site.
+
+6-Suporte a Idiomas: Disponibilizar o site em vários idiomas, permitindo que os usuários escolham o idioma que lhes seja mais confortável.
+
+7-Acessibilidade a Dispositivos Móveis: Garantir que o site seja responsivo e otimizado para dispositivos móveis, para que os usuários possam acessá-lo em smartphones ou tablets com facilidade.
+
+8-Fórum de Discussão: Oferecer um fórum de discussão ou uma seção de perguntas e respostas para que os usuários possam interagir, fazer perguntas e compartilhar conhecimentos uns com os outros.
+
+9-Exemplos Práticos e Projetos Simples: Disponibilizar exemplos práticos e projetos simples de programação, com explicações passo a passo, para facilitar a compreensão e o aprendizado.
+
+10-Suporte Técnico Especializado: Oferecer suporte técnico especializado para ajudar os usuários idosos com dúvidas ou dificuldades técnicas durante o uso do site ou na aprendizagem de programação.
+
+
+
+
+
+
+RNF:
+
+1-Desempenho: O site deve carregar rapidamente e responder de forma ágil, mesmo em conexões de internet mais lentas, garantindo uma experiência de usuário fluida e sem interrupções.
+
+2-Segurança: Implementar medidas robustas de segurança, como criptografia de dados e proteção contra ataques cibernéticos, para garantir a privacidade e a integridade das informações dos usuários idosos.
