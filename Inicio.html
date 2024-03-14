@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python F.Y.</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.9a8bd0fa820cc069f049829e093c016e?rik=ZDfg5TDomHE74A&pid=ImgRaw&r=0" type="image/x-icon">
+    <style>
+        .imagem{
+            width:300px;
+            height:auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Escolha uma dos links abaixo, para ser redirecionado para uma dessas páginas.</h2>
+
+  <pre>
+    <a href="Inicio.html" target="_parent">Inicio</a>  <a href="Sobre.html" target="_parent">Sobre</a>  <a href="Serviços_CursosDisponiveis.html" target="_parent">Serviços_CursosDisponiveis</a>  <a href="Contato.html" target="_parent">Contato</a><br><br>
+</pre>
+
+
+    <button onclick="lerTexto()">Reproduzir Texto</button>
+
+    <h1>Bem vindo!</h1>
+    <img class="imagem" src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/01/07093212/PYTHON.png" alt="">
+
+    <form action="cadastra.php" method="post">
+        <p>Login:</p>
+        Nome: <input type="text" name="nom_pessoa"><br>
+        Senha: <input type="password" name="senha"><br>
+        Idade: <input type="number"><br>
+        Email: <input type="email"><br>
+        <input type="radio" name="sexo" value="M" /> Masculino
+        <input type="radio" name="sexo" value="F" /> Feminino 
+
+        <p>Linguagens de programação favoritas:</p>
+         Python<input type="checkbox" name="m_p"value>
+         Java<input type="checkbox" name="m_p"value>
+         C#<input type="checkbox" name="m_p"value>
+         Nehuma das Anteriores<input type="checkbox" name="m_p"value>
+
+         <input type="button" value="Enviar">
+
+    </form>
+    <h1>Apredendizado Python</h1>
+    <p>Aqui neste site você irá aprender sobre o que é a linguagem de programação <b>Python,</b><br>com este aprendizado você terá ciência do básico dessa linguagem e qual a sua utilazação para os dias atuais.<br></p>
+    
+    <script>
+        function lerTexto() {
+            var elements = document.querySelectorAll('h1, h2, h3, p, li, legend, td');
+            var texto = '';
+            elements.forEach(function(element) {
+                texto += element.textContent + '. ';
+            });
+            var utterance = new SpeechSynthesisUtterance(texto);
+            speechSynthesis.speak(utterance);
+        }
+    </script>
+
+</body>
+</html>
