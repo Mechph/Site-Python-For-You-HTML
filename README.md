@@ -1,2 +1,2 @@
 # Este site foi criado para testar meus conhecimentos com a Linguagem de Marcação conhecida como HTML.
-# A ideia deste site foi criar um esqueleto básico, sem nehum tipo de estilização voltado para o publico idoso.
+# A ideia deste site foi criar um esqueleto básico, sem nehum tipo de estilização voltado para o publico idoso, onde é apresentado a este público uma maneira mais simples e intuítiva de se aprender mais sobre o mundo da programação, e nada melhor do que começar com uma línguagem de programação onde sua sintaxe é mais símple.
